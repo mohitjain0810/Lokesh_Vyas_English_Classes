@@ -1,0 +1,84 @@
+body {
+   font-family: "Lato", sans-serif; /* Change font to Lato (or your preferred font) */
+   margin: 0;
+   padding: 0;
+   background-color: #c9b7fa; /* Light gray background */
+   background-image: url("summer-background-pattern.png"); /* Optional summer pattern */
+   background-repeat: repeat;
+ }
+ 
+ .header {
+   background-color: transparent; /* Remove background color for header */
+   padding: 20px 0; /* Adjust padding if needed */
+   text-align: center;
+ }
+ 
+ h1 {
+   margin: 0;
+   font-size: 2.5em; /* Adjust font size as needed */
+   color: #e63330; /* Orange color for header */
+ }
+ 
+ h2 {
+   margin: 10px 0; /* Margin between header elements */
+   font-weight: lighter; /* Lighter font weight for subtitle */
+   color: #333; /* Dark gray color for subtitle */
+ }
+ 
+ main {
+   padding: 50px;
+   display: grid; /* Use grid layout for sections */
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+   grid-gap: 20px; /* Spacing between sections */
+ }
+ 
+ section {
+   background-color: #fff; /* White background for sections */
+   padding: 20px;
+   border-radius: 5px; /* Rounded corners for sections */
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+ }
+ 
+ .about img, .demo img {
+   width: 100%; /* Set image width to 100% of its container */
+   margin-bottom: 15px; /* Spacing below images */
+ }
+ 
+ a {
+   display: inline-block;
+   padding: 10px 20px;
+   text-decoration: none; /* Remove underline from links */
+   font-weight: bold;
+   border-radius: 5px; /* Rounded corners for buttons */
+   background-color: #cf97fa; /* Pink color for buttons */
+   color: #fff; /* White text color for buttons */
+ }
+ 
+ a:hover { /* Button hover effect (optional) */
+   background-color: #f7cac9; /* Change hover color to orange */
+ }
+ 
+ .benefits ul, .schedule ul {
+   list-style: none; /* Remove default bullet points */
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .benefits ul li, .schedule ul li {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   color: #333; /* Dark gray color for text in benefits and schedule */
+ }
+ 
+ .benefits ul li img, .schedule ul li img {
+   width: 30px;
+   margin-right: 10px;
+ }
+ 
+ hr {
+   border: 0; /* Remove default border styles */
+   height: 1px; /* Set height to 2px for thickness */
+   background-color: black; /* Set background color to black */
+ }
+ 
